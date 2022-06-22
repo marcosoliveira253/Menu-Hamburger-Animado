@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #373c56;
 }
-
+/* é a caixa onde fica o X */
 #menu {
     width: 35px;
     height: 30px;
@@ -10,6 +10,7 @@ body {
     cursor: pointer;
 }
 
+/* são os traços que formam o X */
 .bar {
     height: 5px;
     width: 100%;
@@ -26,6 +27,7 @@ body {
     transform: translateY(4px);
 }
 
+/* É a parte onde fica a lista */
 .nav li a{
     color: #fff;
     text-decoration: none;
@@ -47,12 +49,14 @@ body {
     display: none;
 }
 
+/* Indica a posição onde ficará o menu*/
 .menu-bg, #menu-bar{
     top: 0;
     left: 0;
     position: absolute;
 }
 
+/* É a parte do background colorido do menu hamburger */
 .menu-bg{
     z-index: 1;
     width: 0;
@@ -63,20 +67,24 @@ body {
     transition: 0.3s ease;
 }
 
+/* Coloca a li acima da cor */
 #menu-bar{
     z-index: 2;
 }
 
+/* É o tamanho da caixa que vai ficar o menu hamburger*/
 .change-bg{
     width: 550px;
     height: 540px;
     transform: translate(-60%, -30%);
 }
 
+/* É a cor do X */
 .change .bar{
     background-color: white;
 }
 
+/* Parte responsavél pela rotação do X */
 .change #bar1{
     transform: translateY(4px) rotate(-45deg);
 }
