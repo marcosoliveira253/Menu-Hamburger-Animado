@@ -14,7 +14,7 @@ body {
 .bar {
     height: 5px;
     width: 100%;
-    background-color: black;
+    background-color: #fff;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
